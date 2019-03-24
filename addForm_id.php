@@ -8,7 +8,7 @@ $form_id = $_POST['form_id'];
 
 $fm = new FormIdManager();
 $fm->add($form_id,$openId);
-echo $form_id;
+// echo $form_id;
 
 $conn->close();
 ?>
